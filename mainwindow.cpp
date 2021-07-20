@@ -98,19 +98,6 @@ bool MainWindow::readFromSerialPort(int size){
     }
     QMessageBox::warning(this,"Нет ответа","Нет ответа от устройства");
     return false;
-
-
-
-//        if (serialPort.waitForReadyRead(1000)){
-//            while (serialPort.bytesAvailable() < size);
-//            serialPort.read(data, size);
-////            perform_C4_answer();
-//            return true;
-//        } else {
-//            QMessageBox::warning(this,"Нет ответа","Нет ответа от устройства");
-//            return false;
-//        }
-
 }
 
 // чтение конфигурационных байт из EEPROM ======================>
@@ -119,19 +106,9 @@ void MainWindow::on_pushButton_C1_clicked(){
     enableControls(false);
     prepare_C1_request();
     serialPort.write(data, 4);
-
-//    if (serialPort.waitForReadyRead(1000)){
-//        while (serialPort.bytesAvailable() < 25);
-//        serialPort.read(data, 25);
-//        perform_C1_answer();
-//    } else {
-//        QMessageBox::warning(this,"Нет ответа","Нет ответа от устройства");
-//    }
-
     if (readFromSerialPort(25)){
         perform_C1_answer();
     }
-
     enableControls(true);
 }
 
@@ -216,19 +193,9 @@ void MainWindow::on_pushButton_C3_clicked(){
     enableControls(false);
     prepare_C3_request();
     serialPort.write(data, 4);
-
-//    if (serialPort.waitForReadyRead(1000)){
-//        while (serialPort.bytesAvailable() < 17);
-//        serialPort.read(data, 17);
-//        perform_C3_answer();
-//    } else {
-//        QMessageBox::warning(this,"Нет ответа","Нет ответа от устройства");
-//    }
-
     if (readFromSerialPort(17)){
         perform_C3_answer();
     }
-
     enableControls(true);
 }
 
@@ -241,7 +208,6 @@ void MainWindow::prepare_C3_request(){
 const QString CIRCLES[] = {":/icon-gray", ":/icon-gray", ":/icon-green", ":/icon-red"};
 
 void MainWindow::perform_C3_answer(){
-//    let tableBody = document.querySelector('#circuit_table table>tbody');
     const int dataLength = 13;
     for (int idx = 0; idx < 13; idx++){
         int idx1 = 4*idx;
@@ -263,19 +229,9 @@ void MainWindow::on_pushButton_C4_clicked(){
     enableControls(false);
     prepare_C4_request();
     serialPort.write(data, 4);
-
-//    if (serialPort.waitForReadyRead(1000)){
-//        while (serialPort.bytesAvailable() < 8);
-//        serialPort.read(data, 8);
-//        perform_C4_answer();
-//    } else {
-//        QMessageBox::warning(this,"Нет ответа","Нет ответа от устройства");
-//    }
-
     if (readFromSerialPort(8)){
         perform_C4_answer();
     }
-
     enableControls(true);
 }
 

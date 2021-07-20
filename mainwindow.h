@@ -34,7 +34,6 @@ private:
     void perform_C3_answer();
     void perform_C4_answer();
 
-//    void CRC16(QByteArray, int);
     void CRC16(char*, int);
 
 public slots:
