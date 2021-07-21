@@ -25,10 +25,10 @@ private:
 
     void enableControls(bool);
 
-    void prepare_C1_request();
-    void prepare_C2_request();
-    void prepare_C3_request();
-    void prepare_C4_request();
+    void prepare_C1_request(); // чтение конфигурационных байт из EEPROM
+    void prepare_C2_request(); // запись конфигурационных байт в EEPROM
+    void prepare_C3_request(); // чтение текущего состояния датчиков
+    void prepare_C4_request(); // чтение заводского номера устройства
 
     void perform_C1_answer();
     void perform_C3_answer();
@@ -42,6 +42,7 @@ public slots:
     void on_pushButton_C2_clicked();
     void on_pushButton_C3_clicked();
     void on_pushButton_C4_clicked();
+
 };
 
 #endif // MAINWINDOW_H

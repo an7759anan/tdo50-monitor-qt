@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QSerialPortInfo>
 #include <QMessageBox>
+#include <QTimer>
 
 #define C1 0x41; // чтение конфигурационных байт из EEPROM
 #define C2 0x42; // запись конфигурационных байт в EEPROM
@@ -189,14 +190,17 @@ void MainWindow::prepare_C2_request(){
 
 // чтение текущего состояния датчиков
 void MainWindow::on_pushButton_C3_clicked(){
-    serialPort.clear();
-    enableControls(false);
-    prepare_C3_request();
-    serialPort.write(data, 4);
-    if (readFromSerialPort(17)){
-        perform_C3_answer();
+    if (ui->pushButton_C3->isChecked()){
+        serialPort.clear();
+        enableControls(false);
+        prepare_C3_request();
+        serialPort.write(data, 4);
+        if (readFromSerialPort(17)){
+            perform_C3_answer();
+        }
+        enableControls(true);
+        QTimer::singleShot(5000, this, SLOT(on_pushButton_C3_clicked()));
     }
-    enableControls(true);
 }
 
 void MainWindow::prepare_C3_request(){

@@ -100,6 +100,12 @@
     <property name="text">
      <string>Прочитать состояние (C3)</string>
     </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_C4">
     <property name="enabled">
@@ -573,7 +579,7 @@
     </item>
     <item row="16" column="2">
      <property name="text">
-      <string> </string>
+      <string/>
      </property>
     </item>
     <item row="16" column="3">
@@ -583,7 +589,7 @@
     </item>
     <item row="17" column="2">
      <property name="text">
-      <string> </string>
+      <string/>
      </property>
     </item>
     <item row="17" column="3">
@@ -843,7 +849,7 @@
     </item>
     <item row="43" column="2">
      <property name="text">
-      <string> </string>
+      <string/>
      </property>
     </item>
     <item row="43" column="3">
@@ -853,7 +859,7 @@
     </item>
     <item row="44" column="2">
      <property name="text">
-      <string> </string>
+      <string/>
      </property>
     </item>
     <item row="44" column="3">
@@ -863,7 +869,7 @@
     </item>
     <item row="45" column="2">
      <property name="text">
-      <string> </string>
+      <string/>
      </property>
     </item>
     <item row="45" column="3">
@@ -873,7 +879,7 @@
     </item>
     <item row="46" column="2">
      <property name="text">
-      <string> </string>
+      <string/>
      </property>
     </item>
     <item row="46" column="3">
@@ -883,7 +889,7 @@
     </item>
     <item row="47" column="2">
      <property name="text">
-      <string> </string>
+      <string/>
      </property>
     </item>
     <item row="47" column="3">
@@ -893,7 +899,7 @@
     </item>
     <item row="48" column="2">
      <property name="text">
-      <string> </string>
+      <string/>
      </property>
     </item>
     <item row="48" column="3">
@@ -903,7 +909,7 @@
     </item>
     <item row="49" column="2">
      <property name="text">
-      <string> </string>
+      <string/>
      </property>
     </item>
     <item row="49" column="3">
