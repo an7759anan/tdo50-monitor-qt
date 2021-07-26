@@ -12,6 +12,10 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
+    , gray_pix(":/icon-gray")
+    , green_pix(":/icon-green")
+    , red_pix(":/icon-red")
+
 {
     ui->setupUi(this);
 
@@ -87,17 +91,19 @@ void MainWindow::enableControls(bool enabled){
 
 bool MainWindow::readFromSerialPort(int size){
     data_in.clear();
+    ui->exchage_image->setPixmap(gray_pix);
     if (serialPort.waitForReadyRead(1000)){
         data_in = serialPort.readAll();
         while (serialPort.waitForReadyRead(100)) data_in += serialPort.readAll();
         if (data_in.length() < size){
-            QMessageBox::warning(this,"Нет ответа","Нет ответа от устройства");
+            ui->exchage_image->setPixmap(red_pix);
             return false;
         } else {
+            ui->exchage_image->setPixmap(green_pix);
             return true;
         }
     }
-    QMessageBox::warning(this,"Нет ответа","Нет ответа от устройства");
+    ui->exchage_image->setPixmap(red_pix);
     return false;
 }
 
@@ -149,7 +155,7 @@ void MainWindow::on_pushButton_C2_clicked(){
     enableControls(false);
     prepare_C2_request();
     serialPort.write(data, 25);
-    serialPort.waitForBytesWritten(1000);
+    readFromSerialPort(4);
     enableControls(true);
 }
 void MainWindow::prepare_C2_request(){

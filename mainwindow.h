@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QSerialPort>
+#include <QPixmap>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -20,6 +21,11 @@ private:
     Ui::MainWindow *ui;
     QSerialPort serialPort;
     QByteArray data_in;
+
+    QPixmap gray_pix;
+    QPixmap green_pix;
+    QPixmap red_pix;
+
     char data[25];
     bool readFromSerialPort(int size);
 

@@ -931,6 +931,25 @@
      <string>Заводской номер:</string>
     </property>
    </widget>
+   <widget class="QLabel" name="exchage_image">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>90</y>
+      <width>16</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="tdo50-resources.qrc">:/icon-gray</pixmap>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -944,6 +963,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="tdo50-resources.qrc"/>
+ </resources>
  <connections/>
 </ui>
