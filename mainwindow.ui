@@ -414,7 +414,7 @@
       </item>
       <item row="0" column="3">
        <property name="text">
-        <string>БРП-16, автомат 1</string>
+        <string>Автомат 1</string>
        </property>
       </item>
       <item row="1" column="2">
@@ -424,7 +424,7 @@
       </item>
       <item row="1" column="3">
        <property name="text">
-        <string>БРП-16, автомат 2</string>
+        <string>Автомат 2</string>
        </property>
       </item>
       <item row="2" column="2">
@@ -434,7 +434,7 @@
       </item>
       <item row="2" column="3">
        <property name="text">
-        <string>БРП-16, автомат 3</string>
+        <string>Автомат 3</string>
        </property>
       </item>
       <item row="3" column="2">
@@ -444,7 +444,7 @@
       </item>
       <item row="3" column="3">
        <property name="text">
-        <string>БРП-16, автомат 4</string>
+        <string>Автомат 4</string>
        </property>
       </item>
       <item row="4" column="2">
@@ -454,7 +454,7 @@
       </item>
       <item row="4" column="3">
        <property name="text">
-        <string>БРП-16, автомат 5</string>
+        <string>Автомат 5</string>
        </property>
       </item>
       <item row="5" column="2">
@@ -464,7 +464,7 @@
       </item>
       <item row="5" column="3">
        <property name="text">
-        <string>БРП-16, автомат 6</string>
+        <string>Автомат 6</string>
        </property>
       </item>
       <item row="6" column="2">
@@ -474,7 +474,7 @@
       </item>
       <item row="6" column="3">
        <property name="text">
-        <string>БРП-16, автомат 7</string>
+        <string>Автомат 7</string>
        </property>
       </item>
       <item row="7" column="2">
@@ -484,7 +484,7 @@
       </item>
       <item row="7" column="3">
        <property name="text">
-        <string>БРП-16, автомат 8</string>
+        <string>Автомат 8</string>
        </property>
       </item>
       <item row="8" column="2">
@@ -494,7 +494,7 @@
       </item>
       <item row="8" column="3">
        <property name="text">
-        <string>БРП-16, автомат 9</string>
+        <string>Автомат 9</string>
        </property>
       </item>
       <item row="9" column="2">
@@ -504,7 +504,7 @@
       </item>
       <item row="9" column="3">
        <property name="text">
-        <string>БРП-16, автомат 10</string>
+        <string>Автомат 10</string>
        </property>
       </item>
       <item row="10" column="2">
@@ -514,7 +514,7 @@
       </item>
       <item row="10" column="3">
        <property name="text">
-        <string>БРП-16, автомат 11</string>
+        <string>Питание ВК-4-48</string>
        </property>
       </item>
       <item row="11" column="2">
@@ -524,7 +524,7 @@
       </item>
       <item row="11" column="3">
        <property name="text">
-        <string>БРП-16, автомат 12</string>
+        <string>ЭАС панели вентиляции</string>
        </property>
       </item>
       <item row="12" column="2">
@@ -534,7 +534,7 @@
       </item>
       <item row="12" column="3">
        <property name="text">
-        <string>БРП-16, автомат 13</string>
+        <string>Автомат ВК-4-48</string>
        </property>
       </item>
       <item row="13" column="2">
@@ -544,7 +544,7 @@
       </item>
       <item row="13" column="3">
        <property name="text">
-        <string>БРП-16, автомат 14</string>
+        <string>Автомат ТДО-50</string>
        </property>
       </item>
       <item row="14" column="2">
@@ -554,7 +554,7 @@
       </item>
       <item row="14" column="3">
        <property name="text">
-        <string>БРП-16, автомат 15</string>
+        <string>Автомат полки ГЧ</string>
        </property>
       </item>
       <item row="15" column="2">
@@ -564,27 +564,27 @@
       </item>
       <item row="15" column="3">
        <property name="text">
-        <string>БРП-16, автомат 16</string>
+        <string>ЭАС 16</string>
        </property>
       </item>
       <item row="16" column="2">
        <property name="text">
-        <string/>
+        <string>ЭАС</string>
        </property>
       </item>
       <item row="16" column="3">
        <property name="text">
-        <string>Резерв</string>
+        <string>ЭАС 17</string>
        </property>
       </item>
       <item row="17" column="2">
        <property name="text">
-        <string/>
+        <string>ЭАС</string>
        </property>
       </item>
       <item row="17" column="3">
        <property name="text">
-        <string>Резерв</string>
+        <string>ЭАС 18</string>
        </property>
       </item>
       <item row="18" column="2">
@@ -594,7 +594,7 @@
       </item>
       <item row="18" column="3">
        <property name="text">
-        <string>БРП-16, работа от фидера 1</string>
+        <string>ЭАС 19</string>
        </property>
       </item>
       <item row="19" column="2">
@@ -604,7 +604,7 @@
       </item>
       <item row="19" column="3">
        <property name="text">
-        <string>БРП-16, работа от фидера 2</string>
+        <string>ЭАС 20</string>
        </property>
       </item>
       <item row="20" column="2">
@@ -614,7 +614,7 @@
       </item>
       <item row="20" column="3">
        <property name="text">
-        <string>БРП-16, авария фидера 1</string>
+        <string>ЭАС 21</string>
        </property>
       </item>
       <item row="21" column="2">
@@ -624,7 +624,7 @@
       </item>
       <item row="21" column="3">
        <property name="text">
-        <string>БРП-16, авария фидера 2</string>
+        <string>ЭАС 22</string>
        </property>
       </item>
       <item row="22" column="2">
@@ -634,7 +634,7 @@
       </item>
       <item row="22" column="3">
        <property name="text">
-        <string>ПМ-60 1</string>
+        <string>ЭАС 23</string>
        </property>
       </item>
       <item row="23" column="2">
@@ -644,7 +644,7 @@
       </item>
       <item row="23" column="3">
        <property name="text">
-        <string>ПМ-60 2</string>
+        <string>ЭАС 24</string>
        </property>
       </item>
       <item row="24" column="2">
@@ -654,7 +654,7 @@
       </item>
       <item row="24" column="3">
        <property name="text">
-        <string>УАК-60 1</string>
+        <string>ЭАС 25</string>
        </property>
       </item>
       <item row="25" column="2">
@@ -664,7 +664,7 @@
       </item>
       <item row="25" column="3">
        <property name="text">
-        <string>УАК-60 </string>
+        <string>ЭАС 26</string>
        </property>
       </item>
       <item row="26" column="2">
@@ -674,7 +674,7 @@
       </item>
       <item row="26" column="3">
        <property name="text">
-        <string>ПКС-02А</string>
+        <string>ЭАС 27</string>
        </property>
       </item>
       <item row="27" column="2">
@@ -684,7 +684,7 @@
       </item>
       <item row="27" column="3">
        <property name="text">
-        <string>ПКС-02Б</string>
+        <string>ЭАС 28</string>
        </property>
       </item>
       <item row="28" column="2">
@@ -694,7 +694,7 @@
       </item>
       <item row="28" column="3">
        <property name="text">
-        <string>М490М 1</string>
+        <string>ЭАС 29</string>
        </property>
       </item>
       <item row="29" column="2">
@@ -704,7 +704,7 @@
       </item>
       <item row="29" column="3">
        <property name="text">
-        <string>М490М 2</string>
+        <string>ЭАС 30</string>
        </property>
       </item>
       <item row="30" column="2">
@@ -714,7 +714,7 @@
       </item>
       <item row="30" column="3">
        <property name="text">
-        <string>М490М 3</string>
+        <string>ЭАС 31</string>
        </property>
       </item>
       <item row="31" column="2">
@@ -724,7 +724,7 @@
       </item>
       <item row="31" column="3">
        <property name="text">
-        <string>М490М 4</string>
+        <string>ЭАС 32</string>
        </property>
       </item>
       <item row="32" column="2">
@@ -734,7 +734,7 @@
       </item>
       <item row="32" column="3">
        <property name="text">
-        <string>М490М 1</string>
+        <string>НСД 33</string>
        </property>
       </item>
       <item row="33" column="2">
@@ -744,7 +744,7 @@
       </item>
       <item row="33" column="3">
        <property name="text">
-        <string>М490М 2</string>
+        <string>НСД 34</string>
        </property>
       </item>
       <item row="34" column="2">
@@ -754,7 +754,7 @@
       </item>
       <item row="34" column="3">
        <property name="text">
-        <string>М490М 3</string>
+        <string>НСД 35</string>
        </property>
       </item>
       <item row="35" column="2">
@@ -764,7 +764,7 @@
       </item>
       <item row="35" column="3">
        <property name="text">
-        <string>М490М 4</string>
+        <string>НСД 36</string>
        </property>
       </item>
       <item row="36" column="2">
@@ -774,7 +774,7 @@
       </item>
       <item row="36" column="3">
        <property name="text">
-        <string>Шкаф</string>
+        <string>НСД 37</string>
        </property>
       </item>
       <item row="37" column="2">
@@ -784,127 +784,127 @@
       </item>
       <item row="37" column="3">
        <property name="text">
-        <string>Внешний кросс</string>
+        <string>НСД 38</string>
        </property>
       </item>
       <item row="38" column="2">
        <property name="text">
-        <string>ЭАС</string>
+        <string>НСД</string>
        </property>
       </item>
       <item row="38" column="3">
        <property name="text">
-        <string>Панель вентиляции</string>
+        <string>НСД 39</string>
        </property>
       </item>
       <item row="39" column="2">
        <property name="text">
-        <string>ЭАС</string>
+        <string>НСД</string>
        </property>
       </item>
       <item row="39" column="3">
        <property name="text">
-        <string>ЭПУ 1(Пропадание внешнего питания)</string>
+        <string>НСД 40</string>
        </property>
       </item>
       <item row="40" column="2">
        <property name="text">
-        <string>ЭАС</string>
+        <string>НСД</string>
        </property>
       </item>
       <item row="40" column="3">
        <property name="text">
-        <string>ЭПУ 2(общая авария)</string>
+        <string>НСД 41</string>
        </property>
       </item>
       <item row="41" column="2">
        <property name="text">
-        <string>ЭАС</string>
+        <string>НСД</string>
        </property>
       </item>
       <item row="41" column="3">
        <property name="text">
-        <string>ГШ-ВЧ(общая авария)</string>
+        <string>НСД 42</string>
        </property>
       </item>
       <item row="42" column="2">
        <property name="text">
-        <string>ЭАС</string>
+        <string>НСД</string>
        </property>
       </item>
       <item row="42" column="3">
        <property name="text">
-        <string>ГШ-НЧ(общая авария)</string>
+        <string>НСД 43</string>
        </property>
       </item>
       <item row="43" column="2">
        <property name="text">
-        <string/>
+        <string>НСД</string>
        </property>
       </item>
       <item row="43" column="3">
        <property name="text">
-        <string>Резерв</string>
+        <string>НСД 44</string>
        </property>
       </item>
       <item row="44" column="2">
        <property name="text">
-        <string/>
+        <string>НСД</string>
        </property>
       </item>
       <item row="44" column="3">
        <property name="text">
-        <string>Резерв</string>
+        <string>НСД 45</string>
        </property>
       </item>
       <item row="45" column="2">
        <property name="text">
-        <string/>
+        <string>НСД</string>
        </property>
       </item>
       <item row="45" column="3">
        <property name="text">
-        <string>Резерв</string>
+        <string>НСД 46</string>
        </property>
       </item>
       <item row="46" column="2">
        <property name="text">
-        <string/>
+        <string>НСД</string>
        </property>
       </item>
       <item row="46" column="3">
        <property name="text">
-        <string>Резерв</string>
+        <string>НСД 47</string>
        </property>
       </item>
       <item row="47" column="2">
        <property name="text">
-        <string/>
+        <string>НСД</string>
        </property>
       </item>
       <item row="47" column="3">
        <property name="text">
-        <string>Резерв</string>
+        <string>НСД 48</string>
        </property>
       </item>
       <item row="48" column="2">
        <property name="text">
-        <string/>
+        <string>НСД</string>
        </property>
       </item>
       <item row="48" column="3">
        <property name="text">
-        <string>Резерв</string>
+        <string>НСД 49</string>
        </property>
       </item>
       <item row="49" column="2">
        <property name="text">
-        <string/>
+        <string>НСД</string>
        </property>
       </item>
       <item row="49" column="3">
        <property name="text">
-        <string>Резерв</string>
+        <string>НСД шкафа</string>
        </property>
       </item>
      </widget>
